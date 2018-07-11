@@ -1,0 +1,17 @@
+/* TAGS */
+h1 {
+	text-align: center;
+}
+
+/* CLASSES */
+
+/* ID */
+#container {
+	border: 2px solid black;
+	width: 33%;
+	/*margin-left: 33.5%;
+	margin-right: 33.5%;
+	margin-top: 10%;*/
+
+	margin: 0 auto;
+}
