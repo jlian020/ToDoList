@@ -1,17 +1,76 @@
 /* TAGS */
 h1 {
 	text-align: center;
+	background: #105460;
+	margin: 0;
+	color: white;
+	padding: 5px;
+	font-size: 35px;
+	font-family: "Heebo";
 }
 
+body {
+	background: url("paul_jarvis.jpg");
+	background-position: top;
+	background-size: cover;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: #f7f7f7;
+	height: 30px;
+	line-height: 30px;
+	font-family: "Roboto";
+}
+
+li:nth-child(2n) {
+	background: #fff;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 100;
+}
+
+input {
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: #365768;
+	font-weight: bold;
+}
+
+input:focus {
+	outline: none;
+	background: white;
+	border: 2px solid #365768;
+}
+
+span {
+	color: white;
+	background: #e74c3c;
+	height: 100%;
+	text-align: center;
+	margin-right: 20px;
+	width: 0px;
+	opacity: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+}
 /* CLASSES */
 
 /* ID */
 #container {
-	border: 2px solid black;
+	/*border: 2px solid black;*/
+	/*box-shadow: 0 0 3px white;*/
 	width: 33%;
-	/*margin-left: 33.5%;
-	margin-right: 33.5%;
-	margin-top: 10%;*/
-
-	margin: 0 auto;
+	margin: 100px auto;
+	background: white;
 }

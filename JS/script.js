@@ -28,6 +28,6 @@ $("input[type='text'").keypress(function(event) {
 	if(event.which === 13) {
 		var userInput = $(this).val();
 		$(this).val("");
-		$("ul").append("<li><span class=\"delete\"> X </span>" + userInput + "</li>");
+		$("ul").append("<li><span class=\"delete\"><i class=\"fas fa-trash-alt\"></i></span>" + userInput + "</li>");
 	}
 });
